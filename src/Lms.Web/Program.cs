@@ -19,6 +19,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseInMemoryDatabase("LmsDb");
 });
 
+builder.Services.AddScoped<Lms.Core.Interfaces.ICourseRepository, Lms.Infrastructure.Repositories.CourseRepository>();
+
 builder.Services.AddOpenApi();
 
 var app = builder.Build();

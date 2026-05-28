@@ -23,4 +23,10 @@ public class Course : Entity, IAggregateRoot
         CourseName = courseName;
         Description = description;
     }
+
+    public void UpdateDetails(string courseName, string? description)
+    {
+        CourseName = courseName;
+        Description = description;
+    }
 }

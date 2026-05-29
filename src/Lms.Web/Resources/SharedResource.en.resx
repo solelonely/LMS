@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Enterprise LMS" xml:space="preserve">
+    <value>Enterprise LMS</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Enterprise LMS Login" xml:space="preserve">
+    <value>Enterprise LMS Login</value>
+  </data>
+  <data name="Invalid username or password." xml:space="preserve">
+    <value>Invalid username or password.</value>
+  </data>
+  <data name="Welcome to Enterprise LMS" xml:space="preserve">
+    <value>Welcome to Enterprise LMS</value>
+  </data>
+  <data name="You have successfully logged in as" xml:space="preserve">
+    <value>You have successfully logged in as</value>
+  </data>
+  <data name="My Courses" xml:space="preserve">
+    <value>My Courses</value>
+  </data>
+  <data name="View and manage your enrolled courses." xml:space="preserve">
+    <value>View and manage your enrolled courses.</value>
+  </data>
+  <data name="View Courses" xml:space="preserve">
+    <value>View Courses</value>
+  </data>
+  <data name="Teams Meetings" xml:space="preserve">
+    <value>Teams Meetings</value>
+  </data>
+  <data name="Join upcoming synchronous sessions." xml:space="preserve">
+    <value>Join upcoming synchronous sessions.</value>
+  </data>
+  <data name="View Schedule" xml:space="preserve">
+    <value>View Schedule</value>
+  </data>
+  <data name="Reports &amp; Analytics" xml:space="preserve">
+    <value>Reports &amp; Analytics</value>
+  </data>
+  <data name="Check attendance and completion rates." xml:space="preserve">
+    <value>Check attendance and completion rates.</value>
+  </data>
+  <data name="View Reports" xml:space="preserve">
+    <value>View Reports</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+</root>

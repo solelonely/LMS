@@ -1,36 +1,39 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Lms.Web
+@inject IHtmlLocalizer<SharedResource> Localizer
 @{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = Localizer["Dashboard"];
 }
 
 <div class="text-center mt-5">
-    <h1 class="display-4">Welcome to Enterprise LMS</h1>
-    <p class="lead">You have successfully logged in as <strong>@User.Identity?.Name</strong>.</p>
+    <h1 class="display-4">@Localizer["Welcome to Enterprise LMS"]</h1>
+    <p class="lead">@Localizer["You have successfully logged in as"] <strong>@User.Identity?.Name</strong>.</p>
 
     <div class="row mt-5">
         <div class="col-md-4">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">My Courses</h5>
-                    <p class="card-text">View and manage your enrolled courses.</p>
-                    <a href="#" class="btn btn-outline-primary">View Courses</a>
+                    <h5 class="card-title">@Localizer["My Courses"]</h5>
+                    <p class="card-text">@Localizer["View and manage your enrolled courses."]</p>
+                    <a href="#" class="btn btn-outline-primary">@Localizer["View Courses"]</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">Teams Meetings</h5>
-                    <p class="card-text">Join upcoming synchronous sessions.</p>
-                    <a href="#" class="btn btn-outline-info">View Schedule</a>
+                    <h5 class="card-title">@Localizer["Teams Meetings"]</h5>
+                    <p class="card-text">@Localizer["Join upcoming synchronous sessions."]</p>
+                    <a href="#" class="btn btn-outline-info">@Localizer["View Schedule"]</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h5 class="card-title">Reports & Analytics</h5>
-                    <p class="card-text">Check attendance and completion rates.</p>
-                    <a href="#" class="btn btn-outline-success">View Reports</a>
+                    <h5 class="card-title">@Localizer["Reports & Analytics"]</h5>
+                    <p class="card-text">@Localizer["Check attendance and completion rates."]</p>
+                    <a href="#" class="btn btn-outline-success">@Localizer["View Reports"]</a>
                 </div>
             </div>
         </div>

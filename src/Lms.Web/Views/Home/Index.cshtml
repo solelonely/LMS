@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Welcome to Enterprise LMS</h1>
+    <p class="lead">You have successfully logged in as <strong>@User.Identity?.Name</strong>.</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">My Courses</h5>
+                    <p class="card-text">View and manage your enrolled courses.</p>
+                    <a href="#" class="btn btn-outline-primary">View Courses</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Teams Meetings</h5>
+                    <p class="card-text">Join upcoming synchronous sessions.</p>
+                    <a href="#" class="btn btn-outline-info">View Schedule</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Reports & Analytics</h5>
+                    <p class="card-text">Check attendance and completion rates.</p>
+                    <a href="#" class="btn btn-outline-success">View Reports</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
